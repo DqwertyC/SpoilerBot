@@ -3,3 +3,4 @@
 /SpoilerBot/bin/*
 /SpoilerBot/obj/*
 /SpoilerBot/Properties/*
+*.json
