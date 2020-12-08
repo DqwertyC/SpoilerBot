@@ -109,7 +109,7 @@ namespace SpoilerBot.Commands
                     foreach (string s in booksUntagged)
                     {
                         untaggedList.Append("#" + s);
-                        if (s.Equals(ctx.Channel.Name)) untaggedList.Append(" <-- You are here.");
+                        if (s.Equals(ctx.Channel.Name)) untaggedList.Append(" **<---You are here**");
                         untaggedList.Append("\n");
                     }
 
@@ -124,7 +124,7 @@ namespace SpoilerBot.Commands
                     foreach (string s in booksTagged)
                     {
                         taggedList.Append("#" + s);
-                        if (s.Equals(ctx.Channel.Name)) taggedList.Append(" <---**You are here**");
+                        if (s.Equals(ctx.Channel.Name)) taggedList.Append(" **<---You are here**");
                         taggedList.Append("\n");
                     }
 
