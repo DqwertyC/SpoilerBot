@@ -1,0 +1,17 @@
+﻿{
+  "book_policies": 
+  [
+    {
+      "book_name": "Book Title",
+      "aliases": ["Alias","Another Alias"],
+      "allowed_full": ["channel","other channel"],
+      "allowed_tagged": ["another channel"]
+    },
+    {
+      "book_name": "Another Book Title",
+      "aliases": [ "An Alias" ],
+      "allowed_full": [ ],
+      "allowed_tagged": [ "other channel" ]
+    }
+  ]
+}

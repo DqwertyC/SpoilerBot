@@ -1,0 +1,5 @@
+*.dll
+*.suo
+/SpoilerBot/bin/*
+/SpoilerBot/obj/*
+/SpoilerBot/Properties/*
